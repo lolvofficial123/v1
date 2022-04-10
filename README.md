@@ -7,7 +7,7 @@ for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
     bp.Position = game.Players.LocalPlayer.Character.Head.Position
     v.Handle.Parent = workspace
     
-    local counter = 1
+  local counter = 1
     spawn(function()
         while wait() do
             if game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.E) then
